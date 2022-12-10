@@ -6,14 +6,13 @@
 .vada {
   display:inline-block;
   text-align:center;
- 
   width: 100%;/*1280*/
   height: 100vh;/*1364*/
- 
+
   
-  padding: auto;
-  margin: auto;
-  
+}
+.image{
+  padding-top:185px;
 }
 .image img{
   
@@ -28,6 +27,7 @@
 
 }
 .company{
+  padding-top: 50px;
   align-items: center;
   justify-content: center;
 }

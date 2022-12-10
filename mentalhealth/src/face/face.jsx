@@ -56,20 +56,6 @@ const Face  = () => {
         </div>
     );
 
-    // const imgSize = image.getBoundingClientRect();
-    // const displaySize = { width: imgSize.width, height: imgSize.height };
-    // if (displaySize.height === 0) {
-    //   return;
-    // }
-  
-    // const faces = await faceapi
-    //   .detectAllFaces(image, new faceapi.TinyFaceDetectorOptions({ inputSize: 320 }))
-    //   .withFaceLandmarks()
-    //   .withFaceExpressions()
-    //   .withAgeAndGender();
-  
-    // return faceapi.resizeResults(faces, displaySize);
-
 
 };
 
