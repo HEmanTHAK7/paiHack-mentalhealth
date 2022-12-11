@@ -9,26 +9,22 @@
     "preview": "vite preview"
   },
   "dependencies": {
-<<<<<<< HEAD
-    "face-api.js": "^0.22.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.4.5",
-    "react-webcam": "^7.0.1"
-=======
-    "@fortawesome/fontawesome-svg-core": "^6.2.1",
     "@fortawesome/free-regular-svg-icons": "^6.2.1",
     "@fortawesome/free-solid-svg-icons": "^6.2.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "bootstrap": "^5.2.3",
     "fa-icons": "^0.2.0",
+    "face-api.js": "^0.22.2",
     "mdb-react-ui-kit": "^5.0.0",
     "particles.js": "^2.0.0",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-particles-js": "^2.4.0",
-    "react-router-dom": "^6.4.5"
->>>>>>> d0b8196ba5345c1495f8c2e0de3247e95cc885d8
+    "react-router-dom": "^6.4.5",
+    "react-webcam": "^7.0.1",
+    "survey-react": "^1.9.63"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",

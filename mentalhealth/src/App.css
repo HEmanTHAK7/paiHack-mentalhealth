@@ -1,3 +1,4 @@
+
 .front-Page{
   height: 100%;
   width: 100%;
@@ -12,7 +13,8 @@
   
 }
 .image{
-  padding-top:185px;
+  padding-top:40px;
+  padding-bottom: 20px;
 }
 .image img{
   

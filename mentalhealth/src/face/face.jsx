@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Webcam from "react-webcam";
 import { Link } from 'react-router-dom';
-
+import "./face.css"
 
 const WebcamComponent = () => <Webcam />;
 
@@ -33,10 +33,10 @@ const Face  = () => {
 
                 {image == '' ? <Webcam
                     audio={false}
-                    height={200}
+                    height={300}
                     ref={webcamRef}
                     screenshotFormat="image/jpeg"
-                    width={220}
+                    width={440}
                     videoConstraints={videoConstraints}
                 /> : <img src={image} />
                 }
@@ -44,7 +44,7 @@ const Face  = () => {
             <div>
                 {image != '' ?
                     
-                    <Link to={"/"}><button className="webcam-btn">
+                    <Link to={"/"}><button className="webcam-btn" id='webbt'>
                     Analyse</button></Link>:
                     <button onClick={(e) => {
                         e.preventDefault();
