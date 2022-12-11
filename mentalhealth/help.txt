@@ -1,0 +1,2 @@
+"particles.js": "^2.0.0",
+"react-particles-js": "^2.4.0",
